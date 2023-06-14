@@ -23,6 +23,28 @@ module.exports = {
         'base-background': '#071422',
         'base-input': '#040F1A',
       },
+      screens: {
+        '2xl': { max: '1535px' },
+        // => @media (max-width: 1535px) { ... }
+
+        '1xl': { max: '1370px' },
+        // => @media (max-width: 1270px) { ... }
+
+        xl: { max: '1279px' },
+        // => @media (max-width: 1279px) { ... }
+
+        lg: { max: '1050px' },
+        // => @media (max-width: 1023px) { ... }
+
+        mdd: { max: '860px' },
+        // => @media (max-width: 860px) { ... }
+
+        md: { max: '767px' },
+        // => @media (max-width: 767px) { ... }
+
+        sm: { max: '639px' },
+        // => @media (max-width: 639px) { ... }
+      },
     },
   },
   plugins: [],
